@@ -1,0 +1,138 @@
+@use 'sass:color';
+
+/*!
+ * tabreturn theme (extends Gaia).
+ *
+ * @theme tabreturn
+ * @author tabreturn
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ */
+
+@import 'gaia';
+/*
+@import url(https://fonts.bunny.net/css?family=major-mono-display:400);
+@import url(https://fonts.bunny.net/css?family=ubuntu-mono:400,400i,700,700i);
+*/
+@import url(https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+:root {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.75rem;
+}
+
+blockquote {
+  bottom: 2%;
+  color: var(--color-highlight);
+  font-size: 40%;
+  margin: 0;
+  padding: 1px 5px 2px 5px;
+  position: absolute;
+  left: 2%;
+  text-align: right;
+}
+
+blockquote:after, blockquote:before {
+  content: none;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-top: 1.5em !important;
+  line-height: 1.5em;
+}
+
+h1 em strong {
+  color: inherit;
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+p, ul, ol {
+  margin-bottom: 0.8em;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 0.5em !important;
+  margin-left: 0.25em !important;
+}
+
+li:has(svg) {
+  list-style-type: none;
+}
+
+code, pre {
+  background-color: transparent;
+  font-family: 'Courier', monospace;
+  font-size: 1em;
+  padding: 0.1em !important;
+}
+
+pre code {
+  font-size: 0.85em;
+  padding: 0.1em !important;
+}
+
+code {
+  padding: 0 !important;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid currentColor;
+  margin: 1em 0;
+}
+
+/* custom tags */
+
+svg.absolute {
+  height: 960px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+larger {
+  font-size: 1.3em;
+}
+
+smaller {
+  font-size: 0.7em;
+}
+
+highlight {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.1em;
+  padding-bottom: 0.2em;
+  margin: 0 -0.1em;
+}
+
+terminal {
+  background-color:rgba(0, 0, 0, 0.5);
+  color: white;
+  display: block;
+  font-size: 0.6em;
+  margin-top: 1.75em;
+  padding: 0 1.2em 1em 1.2em !important;
+  unicode-bidi: embed;
+  white-space: pre;
+}
