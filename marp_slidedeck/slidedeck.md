@@ -8,18 +8,18 @@ notes: ...
 -->
 ---
 
-# ***title***
+# ***Mitigating AI Misuse in Introductory Python Courses with Graphical Programming Tasks***
 <!-- 
 _backgroundImage: "url(./tabreturn_title_bg.png)"
 _backgroundRepeat: "repeat"
 _backgroundSize: "325px"
 _color: var(--color-background)
 -->
-*subtitle*
+*Kiwi PyCon 2025*
 
 ---
 
-# section 1 title
+# The Challenge
 <!-- 
 paginate: true 
 backgroundColor: darkred
@@ -28,9 +28,12 @@ color: var(--color-background)
 
 ---
 
-## section 1 title > subsection 1.1
-* lorem
-* ipsum
+## The Challenge > Assessment Q.1.1
+
+1. *Print first 10 numbers using while loop (e.g., 1, 2, 3, ..., 8, 9, 10)*
+2. *Print first 10 even numbers using for loop (e.g., 2, 4, 6, ..., 20)*
+3. *Print first 10 odd numbers using while loop (e.g., 1, 3, 5, ..., 19)*
+4. ...
 <!-- 
 - notes
 -->
@@ -39,6 +42,7 @@ color: var(--color-background)
 
 <!--
 _backgroundColor: white
+_paginate: false
 -->
 ![bg](graphic.png)
 * <svg data-marpit-svg class="absolute">
@@ -53,7 +57,6 @@ _backgroundColor: white
 
 # section 2 title
 <!-- 
-paginate: true 
 backgroundColor: darkgoldenrod
 color: var(--color-background)
 -->
