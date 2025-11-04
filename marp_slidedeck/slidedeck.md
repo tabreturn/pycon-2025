@@ -18,6 +18,17 @@ _color: var(--color-background)
 *Kiwi PyCon 2025*
 
 ---
+
+# The Challenge
+<!-- 
+paginate: true 
+backgroundColor: darkred
+color: var(--color-background)
+-->
+
+---
+
+## The Ghallenge > GenAI
 - Tools like ChatGPT and GitHub Copilot reshaped programming learning.
 - GenAI creates new content: text, code, images, etc.
 - LLMs (Large Language Models) can generate Python code — “program synthesis.”
@@ -25,6 +36,21 @@ _color: var(--color-background)
   - Conversational prompting (e.g., ChatGPT)
   - Inline completion (e.g., Copilot)
   - Code explanation/documentation
+
+---
+
+## The Ghallenge > ...
+graphic designer → web designer → web designer & developer → multimedia developer → creative technologist
+* so, <highlight>interactive</highlight> stuff
+
+
+---
+
+
+---
+
+- Thonny-pymode
+- art
 
 ---
 
