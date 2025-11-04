@@ -1,0 +1,4 @@
+marp_slidedeck/*.html
+# macos droppings
+.DS_Store
+._*
