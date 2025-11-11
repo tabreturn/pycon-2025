@@ -28,7 +28,7 @@ color: var(--color-background)
 
 ---
 
-## The Ghallenge > GenAI
+## The Challenge > GenAI
 - Tools like ChatGPT and GitHub Copilot reshaped programming learning.
 - GenAI creates new content: text, code, images, etc.
 - LLMs (Large Language Models) can generate Python code — “program synthesis.”
@@ -39,7 +39,7 @@ color: var(--color-background)
 
 ---
 
-## The Ghallenge > ...
+## The Challenge > ...
 graphic designer → web designer → web designer & developer → multimedia developer → creative technologist
 * so, <highlight>interactive</highlight> stuff
 
