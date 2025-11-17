@@ -15,9 +15,65 @@ _backgroundRepeat: "repeat"
 _backgroundSize: "325px"
 _color: var(--color-background)
 -->
-*Kiwi PyCon 2025*
+*kiwi pycon 2025*
 
 ---
+
+# Introduction
+<!-- 
+paginate: true 
+backgroundColor: darkslategrey
+color: var(--color-background)
+-->
+
+---
+
+## Introduction > me
+* Graphic designer → web designer → web designer & developer → multimedia developer → 
+* Lecturer in interaction design / creative technologies
+* Increasing grappling with what to teach and how to teach it ...
+* Active in open-source development, and author of Python book
+
+---
+
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg cover](thonny-py5mode/processing.org.png)
+> https://processing.org
+
+---
+
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg 90%](thonny-py5mode/figure-processing-py-workings.png)
+
+---
+
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg 90%](thonny-py5mode/figure-thonny-py5mode-workings.png)
+
+---
+
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg 50%](thonny-py5mode/thonny-py5mode-processing-comparison.png)
+
+---
+
+
+
+
+
+
 
 # The Challenge
 <!-- 
@@ -29,28 +85,11 @@ color: var(--color-background)
 ---
 
 ## The Challenge > GenAI
-- Tools like ChatGPT and GitHub Copilot reshaped programming learning.
-- GenAI creates new content: text, code, images, etc.
-- LLMs (Large Language Models) can generate Python code — “program synthesis.”
-- Key modes of interaction:
-  - Conversational prompting (e.g., ChatGPT)
-  - Inline completion (e.g., Copilot)
-  - Code explanation/documentation
+* 
 
 ---
 
-## The Challenge > ...
-graphic designer → web designer → web designer & developer → multimedia developer → creative technologist
-* so, <highlight>interactive</highlight> stuff
-
-
----
-
-
----
-
-- Thonny-pymode
-- art
+## The Challenge > Authentic Assessment
 
 ---
 
@@ -60,6 +99,9 @@ graphic designer → web designer → web designer & developer → multimedia de
 - Limitations: weak reasoning, over-reliance risk.
 
 ---
+
+
+## Solutions > Mitigation
 
 **GenAI Tutoring Systems**
 
