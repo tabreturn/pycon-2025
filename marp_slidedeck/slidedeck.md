@@ -15,7 +15,7 @@ _backgroundRepeat: "repeat"
 _backgroundSize: "325px"
 _color: var(--color-background)
 -->
-*kiwi pycon 2025*
+*Kiwi Pycon 2025*
 
 ---
 
@@ -30,9 +30,18 @@ color: var(--color-background)
 
 ## Introduction > me
 * Graphic designer → web designer → web designer & developer → multimedia developer → 
-* Lecturer in interaction design / creative technologies
+* Lecturer in Creative Technologies / Interaction Design
 * Increasing grappling with what to teach and how to teach it ...
 * Active in open-source development, and author of Python book
+
+---
+
+## Introduction > Processing
+### ... anybody heard of it?
+* Free, open-source programming tool made for visual arts and creative coding
+* Easy to learn, especially for beginners learning graphics and interaction
+* Great for coding animations, generative art, data visualisations
+* Based on Java with simple functions for drawing and motion (like `setup()` and `draw()`)
 
 ---
 
@@ -45,11 +54,14 @@ backgroundColor: white
 
 ---
 
-<!-- 
-_paginate: false
-backgroundColor: white
+## Introduction > Processing derivatives
+- <highlight>p5.js</highlight> -- JavaScript version for the web (runs in browsers)
+- <highlight>Processing for Android</highlight> -- Create and run sketches on Android devices
+- <highlight>OpenFrameworks</highlight> -- C++ creative coding toolkit inspired by Processing
+* <highlight>Processing.py</highlight>  Uses Python instead of Java
+<!--
+- OpenFrameworks not actually mananged by Processing Foundation
 -->
-![bg 90%](thonny-py5mode/figure-processing-py-workings.png)
 
 ---
 
@@ -57,7 +69,12 @@ backgroundColor: white
 _paginate: false
 backgroundColor: white
 -->
-![bg 90%](thonny-py5mode/figure-thonny-py5mode-workings.png)
+![bg 90%](thonny-py5mode/figure-processing-py-workings.png)
+<
+<!--
+- mention that development on this ceased a few years back
+- also the limitations: no Python 3, and no Python libraries with C extentions (like NumPy)
+-->
 
 ---
 
@@ -69,13 +86,27 @@ backgroundColor: white
 
 ---
 
+## Introduction > Thonny-py5mode
+* Leverages the py5 library, which incorporates JPype
+* JPype supports Python 3
+* JPype supports 3rd-party Python libraries with C extensions
+* py5 includes Jupyter Notebook integration
+* more at https://py5coding.org
+<!--
+- [NEXT SLIDE] conceptual overview
+-->
 
+---
 
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg 90%](thonny-py5mode/figure-thonny-py5mode-workings.png)
 
+---
 
-
-
-# The Challenge
+# Assessment
 <!-- 
 paginate: true 
 backgroundColor: darkred
@@ -84,62 +115,68 @@ color: var(--color-background)
 
 ---
 
-## The Challenge > GenAI
-* 
-
----
-
-## The Challenge > Authentic Assessment
-
----
-
-**2. GenAI in Introductory Python Education**
+## Assessment > Challenges
 - Tools like Copilot, Codeium, and Anaconda Assistant embed AI help.
 - GenAI aids debugging, syntax correction, and explanation.
 - Limitations: weak reasoning, over-reliance risk.
 
 ---
 
+## Assessment > Opportunities
 
-## Solutions > Mitigation
-
-**GenAI Tutoring Systems**
-
-- GPT-4 close to human tutors for hints/debugging.
-- Chatbots (e.g., Graasp Bot) help beginners, less so for complex tasks.
-- Students appreciate GenAI but fear accuracy and fairness issues.
-- LLM assistants are converging with Intelligent Tutoring Systems (ITS).
-- Systems like PyTutor improve engagement/performance but risk dependence.
+- GPT-4 close to human tutors for hints/debugging
+- Chatbots (e.g., Graasp Bot) help beginners, less so for complex tasks
+- Students appreciate GenAI but fear accuracy and fairness issues
+- LLM assistants are converging with Intelligent Tutoring Systems (ITS)
+- Systems like PyTutor improve engagement/performance but risk dependence
 
 ---
 
-**Creative Computing Tutors**
-- ShiffBot (p5.js): AI tutor based on Daniel Shiffman’s teaching.
+## Assessment > Python & Creative Coding
+
+- ShiffBot (p5.js): AI tutor based on Daniel Shiffman's teaching.
 - Uses Retrieval-Augmented Generation for context-aware help.
 - No Python equivalent yet, but py5 + Anaconda Assistant shows potential.
+---
+
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg 90%](thonny-py5mode/shiffbot.png)
+
+> https://shiffbot.withgoogle.com
 
 ---
 
-**3. Mitigating GenAI Misuse**
-- Institutions vary: open integration vs strict prohibition.
-- Enforcement hard; detection tools unreliable.
-- GenAI literacy and ethics education increasingly vital.
+## Assessment > Strategies > 1. Code Tracking & Authorship
+- Stylometric analysis of code patterns.
+- Logging edit histories; staged submissions.
+- Secure, proctored exams (ethical concerns noted).
 
-**Mitigation Strategies:**
-1. **Code Tracking & Authorship**  
-   - Stylometric analysis of code patterns.
-   - Logging edit histories; staged submissions.
-   - Secure, proctored exams (ethical concerns noted).
+---
 
-2. **Integrity Culture & Engagement**  
-   - Clear policies on AI use and citation.
-   - Reflection tasks and honour pledges.
-   - Encourage help-seeking, discuss ethical use.
+## Assessment > Strategies > 2. Integrity Culture & Engagement
+- Clear policies on AI use and citation.
+- Reflection tasks and honour pledges.
+- Encourage help-seeking, discuss ethical use.
 
-3. **Assessment Design & Exposition**  
-   - Personalised or parameterised tasks.
-   - Reflective and viva assessments.
-   - Scaffolded deliverables and code reviews.
+---
+
+<!-- 
+_paginate: false
+backgroundColor: white
+-->
+![bg 90%](thonny-py5mode/shiffbot.png)
+
+> https://shiffbot.withgoogle.com
+
+---
+
+## Assessment > Strategies > 3. Assessment Design & Exposition
+- Personalised or parameterised tasks.
+- Reflective and viva assessments.
+- Scaffolded deliverables and code reviews.
 
 ---
 
