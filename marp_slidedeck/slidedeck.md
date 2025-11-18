@@ -41,13 +41,13 @@ color: var(--color-background)
 * Free, open-source programming tool made for visual arts and creative coding
 * Easy to learn, especially for beginners learning graphics and interaction
 * Great for coding animations, generative art, data visualisations
-* Based on Java with simple functions for drawing and motion (like `setup()` and `draw()`)
+* Based on Java with simple functions for drawing and motion
 
 ---
 
 <!-- 
 _paginate: false
-backgroundColor: white
+_backgroundColor: white
 -->
 ![bg cover](thonny-py5mode/processing.org.png)
 > https://processing.org
@@ -55,10 +55,10 @@ backgroundColor: white
 ---
 
 ## Introduction > Processing derivatives
-- <highlight>p5.js</highlight> -- JavaScript version for the web (runs in browsers)
-- <highlight>Processing for Android</highlight> -- Create and run sketches on Android devices
-- <highlight>OpenFrameworks</highlight> -- C++ creative coding toolkit inspired by Processing
-* <highlight>Processing.py</highlight>  Uses Python instead of Java
+* <highlight>p5.js</highlight> -- JavaScript version for the web (runs in browsers)
+* <highlight>Processing for Android</highlight> -- Create and run sketches on Android devices
+* <highlight>OpenFrameworks</highlight> -- C++ creative coding toolkit inspired by Processing
+* <highlight>Processing.py</highlight> -- Uses Python instead of Java
 <!--
 - OpenFrameworks not actually mananged by Processing Foundation
 -->
@@ -67,7 +67,7 @@ backgroundColor: white
 
 <!-- 
 _paginate: false
-backgroundColor: white
+_backgroundColor: white
 -->
 ![bg 90%](thonny-py5mode/figure-processing-py-workings.png)
 <
@@ -80,7 +80,7 @@ backgroundColor: white
 
 <!-- 
 _paginate: false
-backgroundColor: white
+_backgroundColor: white
 -->
 ![bg 50%](thonny-py5mode/thonny-py5mode-processing-comparison.png)
 
@@ -100,7 +100,7 @@ backgroundColor: white
 
 <!-- 
 _paginate: false
-backgroundColor: white
+_backgroundColor: white
 -->
 ![bg 90%](thonny-py5mode/figure-thonny-py5mode-workings.png)
 
@@ -137,56 +137,211 @@ color: var(--color-background)
 - ShiffBot (p5.js): AI tutor based on Daniel Shiffman's teaching.
 - Uses Retrieval-Augmented Generation for context-aware help.
 - No Python equivalent yet, but py5 + Anaconda Assistant shows potential.
+
 ---
 
 <!-- 
 _paginate: false
-backgroundColor: white
+_backgroundColor: white
 -->
-![bg 90%](thonny-py5mode/shiffbot.png)
+![bg 80%](research/shiffbot.png)
 
 > https://shiffbot.withgoogle.com
 
 ---
 
-## Assessment > Strategies > 1. Code Tracking & Authorship
+<h2>Assessment > Strategies ><br />1. Code Tracking & Authorship</h2>
+
 - Stylometric analysis of code patterns.
 - Logging edit histories; staged submissions.
 - Secure, proctored exams (ethical concerns noted).
 
 ---
 
-## Assessment > Strategies > 2. Integrity Culture & Engagement
+<h2>Assessment > Strategies ><br />2. Integrity Culture & Engagement</h2>
+
 - Clear policies on AI use and citation.
 - Reflection tasks and honour pledges.
 - Encourage help-seeking, discuss ethical use.
 
 ---
 
-<!-- 
-_paginate: false
-backgroundColor: white
--->
-![bg 90%](thonny-py5mode/shiffbot.png)
+<h2>>Assessment > Strategies ><br /> 3. Assessment Design & Exposition</h2>
 
-> https://shiffbot.withgoogle.com
-
----
-
-## Assessment > Strategies > 3. Assessment Design & Exposition
 - Personalised or parameterised tasks.
 - Reflective and viva assessments.
 - Scaffolded deliverables and code reviews.
 
 ---
 
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](research/mcdanel_novak.png)
+
+> [McDanel & Novak (2025)](https://ednovak.net/documents/novak_mcdanel_sigcse_ts_2025_llm_hw_paper.pdf)
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](research/nifty-spectrum.png)
+
+> [McDanel & Novak (2025)](https://ednovak.net/documents/novak_mcdanel_sigcse_ts_2025_llm_hw_paper.pdf)
+
+---
+
 **4. Graphical Programming as a Mitigation**
 - Visual-output Python tasks (e.g., py5) harder for LLMs to solve.
-- McDanel & Novak (2025): Visual tasks break AI accuracy.
+- Visual tasks break AI accuracy.
+
+---
+
+# Thonny-py5mode Tasks
+
+...
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](brief-new/thonny-py5-mode-brief-01.png)
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](brief-new/thonny-py5-mode-brief-02.png)
+
+---
+
+## Thonny-py5mode Tasks > original
+
+Task 1: Coding for simple loops 1. 
+
+Complete the following programming exercises using python programming language: 
+- Print first 10 numbers using while loop (e.g., 1, 2, 3, …., 8, 9, 10)
+- Print first 10 even numbers using for loop (e.g., 2, 4, 6, …., 16, 18, 20)
+- Print first 10 odd numbers using while loop (e.g., 1, 3, 5, ..., 15, 17, 19)
+- Print sum of first 10 numbers using for loop (e.g., print the sum of 1+ 2 + 3 + … + 8 + 9 + 10)
+
+---
+
+## Thonny-py5mode Tasks > replacement
+
+...
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](brief-new/thonny-py5-mode-brief-03.png)
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](brief-new/thonny-py5-mode-brief-04.png)
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](brief-new/thonny-py5-mode-brief-05.png)
+
+---
+
+# Results
+<!-- 
+paginate: true 
+backgroundColor: darkred
+color: var(--color-background)
+-->
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 90%](results/tasks-challenges.png)
+
+---
+
 - Thonny-py5mode assessment (Weeks 5–8) tested six visual challenges.
 - LLMs (Claude, Gemini, GPT-4o) all failed to reproduce graphics reliably.
   - Missed shapes, colours, layering.
   - Outputs appeared as flawed approximations.
+
+---
+
+<!-- 
+paginate: true 
+_backgroundColor: white
+-->
+
+TASK 1 with results
+
+---
+
+<!-- 
+paginate: true 
+_backgroundColor: white
+-->
+
+TASK 2 with results
+
+---
+
+<!-- 
+paginate: true 
+_backgroundColor: white
+-->
+
+TASK 3 with results
+
+---
+
+<!-- 
+paginate: true 
+_backgroundColor: white
+-->
+
+TASK 4 with results
+
+---
+
+<!-- 
+paginate: true 
+_backgroundColor: white
+-->
+
+TASK 5 with results
+
+---
+
+<!-- 
+paginate: true 
+_backgroundColor: white
+-->
+
+TASK 6 with results
+
+---
+
 
 ---
 
