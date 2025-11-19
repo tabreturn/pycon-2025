@@ -39,11 +39,11 @@ color: var(--color-background)
 ---
 
 ## Introduction > Processing
-### ... anybody heard of it?
-* Graphics library and IDE made for teaching non-programmers programming in a visual way
-* Easy to learn, especially for beginners, promoting software literacy within the visual arts
-* Great for coding animations, generative art, data visualisations
-* Based on Java with simple functions for drawing and motion
+*Graphics library and IDE made for teaching non-programmers programming in a visual way*
+
+<p>&nbsp;</p>
+
+... anybody heard of it?
 
 ---
 
@@ -53,6 +53,13 @@ _backgroundColor: white
 -->
 ![bg cover](thonny-py5mode/website-processing.org.png)
 > https://processing.org
+
+---
+
+## Introduction > Processing
+- Easy to learn, especially for beginners, promoting software literacy within the visual arts
+- Great for coding animations, generative art, data visualisations
+- Based on Java with simple functions for drawing and motion
 
 ---
 
@@ -88,11 +95,12 @@ backgroundColor: maroon
 ---
 
 ## Thonny-py5mode > Motivation
-<!-- 
-backgroundColor: maroon
--->
 
-A new (Python 3) enviroment that emulates the Processing IDE, serving as a successor to Processing.py.
+A new (Python 3) enviroment that emulates the Processing IDE, serving as a successor to Processing.py
+
+<p>&nbsp;</p>
+
+It combines ...
 
 ---
 
@@ -237,18 +245,10 @@ color: var(--color-background)
 
 ## Assessment > GenAI Challenges & Opportunities
 Research has shown that --
-* GPT-4 is close to human tutors for hints/debugging
 * Chatbots (e.g. Graasp Bot) help beginners (less so for complex tasks)
 * Students appreciate GenAI (but fear accuracy and fairness issues)
-* LLM assistants are converging with Intelligent Tutoring Systems (ITS)
 * Systems like PyTutor improve engagement/performance (but risk dependence)
-
----
-
-## Assessment > GenAI Creative Coding Opportunities
-
-* ShiffBot (p5.js): AI tutor based on Daniel Shiffman's teaching
-* Uses Retrieval-Augmented Generation for context-aware help
+* ShiffBot (p5.js): Uses Retrieval-Augmented Generation for a context-aware AI tutor based on Daniel Shiffman's teaching
 
 ---
 
@@ -261,20 +261,18 @@ _backgroundColor: white
 
 ---
 
-## Assessment > GenAI Creative Coding Opportunities
-
-- ShiffBot (p5.js): AI tutor based on Daniel Shiffman's teaching
-- Uses Retrieval-Augmented Generation for context-aware help
-- No Python equivalent yet, <highlight>but py5 + Anaconda Assistant shows potential</highlight>
-
----
-
 <!-- 
 _paginate: false
 _backgroundColor: white
 -->
 ![bg 80%](research/anaconda-ai-assistant-py5.png)
 > https://py5coding.org/content/install.html#jupyter-notebook-kernels
+
+---
+
+<div style="display:flex;justify-content:center;align-items:center;height:100%;">
+... unauthorised GenAI/LLM assistance ...
+</div>
 
 ---
 
@@ -311,19 +309,25 @@ _backgroundColor: white
 
 ---
 
+<div style="display:flex;justify-content:center;align-items:center;height:100%;">
+<em style="color:rgba(255,255,255,0.5)">Limit the solution space & add nuance · Use complex dev environment/ configuration · <b style="color:rgba(255,255,255,1)">Incorporate visual/graphics components</b> · Use multi-hop reasoning/sequential state · Include many input/data files/large context · Engage ethical/human-context or reflections · ...</em>
+</div>
+
+---
+
 <!-- 
 _paginate: false
 _backgroundColor: white
 -->
-![bg 80%](research/nifty-spectrum.png)
-> [McDanel & Novak (2025)](https://ednovak.net/documents/novak_mcdanel_sigcse_ts_2025_llm_hw_paper.pdf)
+![bg 90%](research/nifty-spectrum.png)
+> http://nifty.stanford.edu
 
 ---
 
 # Thonny-py5mode Tasks
 <!-- 
 paginate: true 
-backgroundColor: darkslateblue
+backgroundColor: brown
 color: var(--color-background)
 -->
 
@@ -342,7 +346,7 @@ color: var(--color-background)
 ---
 
 ## Thonny-py5mode Tasks > replacement
-### Keep the task complexity the same, but mitigate GenAI misuse through graphics
+### Mitigate GenAI misuse through graphics, without increasing task complexity?
 
 ---
 
@@ -388,7 +392,6 @@ _backgroundColor: white
 
 ## Thonny-py5mode Tasks > Results
 
-- Thonny-py5mode assessment (Weeks 5–8) tested six visual challenges.
 - LLMs (Claude, Gemini, GPT-4o) all failed to reproduce graphics reliably.
   - Missed shapes, colours, layering.
   - Outputs appeared as flawed approximations.
