@@ -1,4 +1,5 @@
 ---
+
 marp: true
 theme: tabreturn
 notes: ...
@@ -6,6 +7,7 @@ notes: ...
 - PRESENT: marp -w -p --html --theme ./theme/tabreturn.css slidedeck.md
 - PDF:     marp -o slidedeck.pdf --html --allow-local-files --theme ./theme/tabreturn.css slidedeck.md
 -->
+
 ---
 
 # ***Mitigating AI Misuse in Introductory Python Courses with Graphical Programming Tasks***
@@ -21,7 +23,7 @@ _color: var(--color-background)
 
 # Introduction
 <!-- 
-paginate: true 
+paginate: true
 backgroundColor: darkslategrey
 color: var(--color-background)
 -->
@@ -31,8 +33,8 @@ color: var(--color-background)
 ## Introduction > me
 * Graphic designer → web designer → web designer & developer → multimedia developer → 
 * Lecturer in Creative Technologies / Interaction Design
-* Increasing grappling with what to teach and how to teach it ...
 * Active in open-source development, and author of Python book
+* Increasing grappling with what to teach and how to teach it ...
 
 ---
 
@@ -78,6 +80,33 @@ _backgroundColor: white
 
 ---
 
+
+## Introduction > Jython Limitations
+- No Support for Python 3
+- Limited CPython C-Extension Support (e.g. no NumPy support)
+
+---
+
+# Thonny-py5mode
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 50%](thonny-py5mode/thonny.org.png)
+
+---
+
+<!-- 
+_paginate: false
+_backgroundColor: white
+-->
+![bg 50%](thonny-py5mode/py5coding.org.png)
+
+---
+
 <!-- 
 _paginate: false
 _backgroundColor: white
@@ -86,7 +115,7 @@ _backgroundColor: white
 
 ---
 
-## Introduction > Thonny-py5mode
+## Thonny-py5mode > Features
 * Leverages the py5 library, which incorporates JPype
 * JPype supports Python 3
 * JPype supports 3rd-party Python libraries with C extensions
