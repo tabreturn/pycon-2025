@@ -390,19 +390,19 @@ _backgroundColor: white
 
 ---
 
-## Thonny-py5mode Tasks > Results
-
-- LLMs (Claude, Gemini, GPT-4o) all failed to reproduce graphics reliably.
-  - Missed shapes, colours, layering.
-  - Outputs appeared as flawed approximations.
-
----
-
 <!-- 
 _paginate: false
 _backgroundColor: white
 -->
 ![bg 70%](results/tasks-challenges.png)
+
+---
+
+## Thonny-py5mode Tasks > Results
+
+- Best of three attempts for Claude, Gemini, and GPT-4o all
+- Missed shapes, colours, layering.
+- Outputs appeared as flawed approximations.
 
 ---
 
