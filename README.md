@@ -6,3 +6,5 @@ Slide-deck created using [Marp](https://marp.app)
 ```
 marp -w -p --html --theme ./theme/tabreturn.css slidedeck.md
 ```
+
+![](talk_image.png)
