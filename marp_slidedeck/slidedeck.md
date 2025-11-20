@@ -83,7 +83,7 @@ _backgroundColor: white
 ## Introduction > Jython Limitations
 * No support for Python 3
 * Limited CPython C-extension support (e.g., no NumPy)
-* Processing.py is effectively discontinued (incompatible with Processing 4)
+* However, Processing.py is effectively discontinued (incompatible with Processing 4)
 
 ---
 
@@ -244,9 +244,9 @@ color: var(--color-background)
 
 ## Assessment > GenAI Challenges & Opportunities
 Research has shown that:
-* Chatbots (e.g., Graasp Bot) help beginners (less so for complex tasks)
-* Students appreciate GenAI (but fear accuracy and fairness issues)
-* Systems like PyTutor improve engagement and performance (but risk dependence)
+* Chatbots (e.g., Graasp Bot) help beginners <highlight>(less so for complex tasks)</highlight>
+* Students appreciate GenAI <highlight>(but fear accuracy and fairness issues)</highlight>
+* Systems like PyTutor improve engagement and performance <highlight>(but risk dependence)</highlight>
 * ShiffBot (p5.js): Retrieval-Augmented Generation AI tutor based on Daniel Shiffman's teaching
 
 ---
@@ -276,23 +276,23 @@ _backgroundColor: white
 ---
 
 ## Assessment > Strategies > Code Tracking & Authorship
-- Stylometric analysis of coding patterns
-- Logging edit histories; staged submissions
-- Secure, proctored exams (ethical concerns noted)
+* Stylometric analysis of coding patterns
+* Logging edit histories; staged submissions
+* Secure, proctored exams (ethical concerns noted)
 
 ---
 
 ## Assessment > Strategies > Integrity Culture & Engagement
-- Clear policies on AI use and citation
-- Reflection tasks and honour pledges
-- Encourage help-seeking and ethical use discussions
+* Clear policies on AI use and citation
+* Reflection tasks and honour pledges
+* Encourage help-seeking and ethical use discussions
 
 ---
 
 ## Assessment > Strategies > Assessment Design & Exposition
-- Personalised or parameterised tasks
-- Reflective and viva assessments
-- Scaffolded deliverables and code reviews
+* Personalised or parameterised tasks
+* Reflective and viva assessments
+* Scaffolded deliverables and code reviews
 
 ---
 
@@ -342,7 +342,7 @@ color: var(--color-background)
 ---
 
 ## Thonny-py5mode Tasks > Replacement
-### Mitigate GenAI misuse through graphics -- without increasing task complexity?
+### Mitigate GenAI misuse through graphics, <highlight>without increasing task complexity?</highlight>
 
 ---
 
@@ -395,16 +395,8 @@ _backgroundColor: white
 ---
 
 ## Thonny-py5mode Tasks > Results
+- Methodology: supply each task along with any scaffold code and instructions
 - Best of three attempts for Claude, Gemini, and GPT-4o
-- Missed shapes, colours, and layering
-- Outputs appeared as flawed approximations
-
----
-
-## Thonny-py5mode Tasks > Results 
-- Best of three attempts for Claude, Gemini, and GPT-4o all 
-- Missed shapes, colours, layering. 
-- Outputs appeared as flawed approximations. 
 
 ---
 
